@@ -8,5 +8,5 @@ Funcionalidade: Acessando o app do Seu Barriga
 	
 	
 	Cenario: Acessando o barriga app com usuário válido
-		Dado o acesso ao barriga App
-		E faz login
+		Dado o acesso do usuario 
+		Entao deve exibir uma mensagem "Bem vindo, rafa!"

@@ -3,11 +3,11 @@
     "line": 4,
     "elements": [
       {
-        "start_timestamp": "2022-05-21T19:43:10.388Z",
+        "start_timestamp": "2022-05-21T23:02:42.514Z",
         "before": [
           {
             "result": {
-              "duration": 5140000000,
+              "duration": 12839000000,
               "status": "passed"
             },
             "match": {
@@ -24,15 +24,33 @@
         "steps": [
           {
             "result": {
-              "duration": 1994000000,
+              "duration": 229000000,
               "status": "passed"
             },
             "line": 11,
-            "name": "o acesso ao barriga App",
+            "name": "o acesso do usuario",
             "match": {
-              "location": "br.com.train.web.steps.LoginSteps.acessando_app_barriga()"
+              "location": "br.com.train.web.steps.LoginSteps.acessando_do_usuario()"
             },
             "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "deve exibir uma mensagem \"Bem vindo, rafa!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bem vindo, rafa!\"",
+                  "offset": 25
+                }
+              ],
+              "location": "br.com.train.web.steps.PainelSteps.validando_alerta(java.lang.String)"
+            },
+            "keyword": "Entao "
           }
         ]
       }

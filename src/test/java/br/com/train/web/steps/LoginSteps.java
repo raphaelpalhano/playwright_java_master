@@ -1,15 +1,16 @@
 package br.com.train.web.steps;
 
 import br.com.train.web.pages.LoginPage;
-import io.cucumber.java.en.Given;
+import io.cucumber.java.pt.Dado;
 
 public class LoginSteps {
 	
 	
-	@Given("o acesso ao barriga App")
-	public void acessando_app_barriga() {
-		
-		LoginPage.openApp();
+	@Dado("o acesso do usuario")
+	public void acessando_do_usuario() {
+		LoginPage.fillLoginFields();
+		LoginPage.clickSign();
 	}
+
 
 }

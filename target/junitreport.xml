@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="7.283">
-<testcase classname="Acessando o app do Seu Barriga" name="Acessando o barriga app com usuário válido" time="7.176">
-<system-out><![CDATA[Dado o acesso ao barriga App................................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.226">
+<testcase classname="Acessando o app do Seu Barriga" name="Acessando o barriga app com usuário válido" time="13.116">
+<system-out><![CDATA[Dado o acesso do usuario....................................................passed
+Entao deve exibir uma mensagem "Bem vindo, rafa!"...........................passed
 ]]></system-out>
 </testcase>
 </testsuite>
