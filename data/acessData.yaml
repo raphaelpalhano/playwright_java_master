@@ -1,0 +1,6 @@
+environments:
+   prod:
+      url: https://barrigareact.wcaquino.me/
+      username: rafa1angel@gmail.com
+      password: rafa332244113
+      

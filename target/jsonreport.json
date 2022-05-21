@@ -1,0 +1,47 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-21T19:43:10.388Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5140000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "br.com.train.web.core.Hook.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Acessando o barriga app com usuário válido",
+        "description": "",
+        "id": ";acessando-o-barriga-app-com-usuário-válido",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o acesso ao barriga App",
+            "match": {
+              "location": "br.com.train.web.steps.LoginSteps.acessando_app_barriga()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      }
+    ],
+    "name": "Acessando o app do Seu Barriga",
+    "description": "",
+    "id": "acessando-o-app-do-seu-barriga",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/Login_Barriga.feature",
+    "tags": []
+  }
+]
